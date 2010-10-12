@@ -19,46 +19,44 @@ a.missing {
 }
 
 #header {
-  background:#f3f3f7;
-/*  background: #f3f3f7 url(/pages/_design/pages/images%2fpaper.png) repeat-x;*/
-  padding:10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  min-height:40px;
+  padding:15px 0px 0px 0px;
+  height: 60px;
+}
+
+#header h1 {
+  padding: 10px;
 }
 
 #account {
-  float:right;
+  position: absolute;
+  right: 6px;
+  top: 0px;
+  padding: 5px;
 }
 
 #account form {
-  margin:0;
-  padding-top:4px;
-  padding-bottom:4px;
-  margin-top:-10px;
+  margin:0px;
+  padding: 0px;
   border:none;
   background:none;
 }
 
 #profile {
-  border-bottom:1px solid #abc;
-  border-top:1px solid #abc;
-  background:#cde;
-  margin-bottom:8px;
-  float:right;
-  border-left:1px solid #AABBCC;
+  background: #F3F3F3;
+  border :1px solid #AABBCC;
+  position: absolute;
+  right: 10px;
+  top: 37px;
 }
 
 p.menu {
-  margin:8px;
+  margin:4px;
   float:right;
 }
 
 p.menu a {
   padding:4px;
   margin:2px;
-  background:#EAF3FA;
   border-radius: 5px;
 }
 
@@ -79,7 +77,6 @@ p.menu a {
 }
 
 #wiki pre {
-  background:#ddd;
   padding:4px;
 }
 #wiki code {
@@ -89,7 +86,7 @@ p.menu a {
 #comments {
   margin:4px;
   padding:4px;
-  background:#efeeef;
+  background:#FAFAFA;
 }
 
 #comments p {
@@ -119,15 +116,20 @@ p.menu a {
 
 .preview {
   float:right;
+  margin-top: 20px;
   font-size:80%;
   width:37%;
   background:#eee;
   padding:4px;
 }
 
+.markdown-help {
+  background:#F5F5FF;
+  border: 1px solid #E5E5EE;
+}
+
 .markdown-help pre {
   overflow-x:auto;
-  background:#bbb;
   padding:4px;
 }
 
@@ -137,10 +139,11 @@ p.menu a {
 }
 
 textarea[name=markdown] {
+  padding: 5px;
   width:100%;
 }
 input[type=submit] {
-  margin:10px;
+  margin-top: 2px;
   text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
   border: 1px solid rgba(0,0,0,0.25);
   border-bottom-left-radius: 5px 5px;
@@ -149,7 +152,7 @@ input[type=submit] {
   border-top-right-radius: 5px 5px;
   background: #222 url(../../images/button-overlay.png) repeat-x;
   display: inline-block;
-  padding: 5px 10px 5px;
+  padding: 2px 6px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -167,7 +170,7 @@ input[type=submit]:hover {
 form {
   padding:10px;
   margin:10px;
-  background-color:#ddd;
+  background-color:#EDEFF0;
 	border: 1px solid #b1b1b1;
 }
 
@@ -187,8 +190,11 @@ div.avatar .name {
 div.avatar img {
   margin:0 auto;
   padding:0;
-  width : 40px;
-  height : 40px;
+  width : 30px;
+  height : 30px;
+  position: relative;
+  top: 3px;
+  left: 3px;
 }
 
 .clear {

@@ -2,11 +2,11 @@
 <form>
 <div class="edit-form">
   <p>Editing: <a href="/page/{{_id}}">/page/{{_id}}</a></p>
-  <p><label>Title: <input type="text" name="title" value="{{title}}"></label></p>
+  <p><label>Page Title: <input type="text" name="title" value="{{title}}"></label></p>
   <input type="hidden" name="_rev" value="{{_rev}}">
   <input type="hidden" name="_id" value="{{_id}}">
-  <textarea name="markdown" rows="30" cols="70">{{{markdown}}}</textarea>
-  <p><label>Optional description: <input size="60" type="text" name="note" value="{{note}}"></label> 
+  <textarea name="markdown" rows="15" cols="70">{{{markdown}}}</textarea>
+  <p>
     <input type="submit" value="Save Changes">
   </p>
   {{>help}}
