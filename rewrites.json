@@ -8,6 +8,10 @@
     "to" : "script/*"
   },
   {
+    "from": "favicon.ico",
+    "to": "images/favicon.ico"
+  },
+  {
     "from" : "style/*",
     "to" : "style/*"
   },
