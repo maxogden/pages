@@ -47,14 +47,6 @@
     }
   },
   {
-    "from" : "/pages/comments",
-    "to" : "_list/comments/all-comments",
-    "query" : {
-      "descending" : true,
-      "limit" : 20
-    }
-  },
-  {
     "from" : "pages/*",
     "to" : "../../*"
   }

@@ -83,26 +83,6 @@ p.menu a {
   background:#ddd;
 }
 
-#comments {
-  margin:4px;
-  padding:4px;
-  background:#FAFAFA;
-}
-
-#comments p {
-  margin-bottom:4px;
-}
-
-#comments li {
-  margin:4px;
-  padding:4px;
-  background:#dfdcdf;
-}
-
-#comments ul li {
-  list-style-type: none;
-}
-
 .date {
   font-size:80%
 }
