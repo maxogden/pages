@@ -18,6 +18,30 @@ a.missing {
   color : #d00;
 }
 
+#header h1 {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+}
+
+#header h1 a {
+  color: #4D5B60;
+  text-decoration: none;
+}
+
+#header h1 em {
+  color: #999999;
+  font-family: monospace;
+}
+
+#header h1 .search-type, #header h1 .search-token {
+  font-size: 0.7em;
+  padding: 0px 4px;
+}
+
+#header h1 .search-type {
+  color: #626262;
+}
+
 #header {
   padding:15px 0px 0px 0px;
   height: 60px;
